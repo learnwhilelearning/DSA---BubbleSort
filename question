@@ -10,3 +10,7 @@ Challenge 2 - Sort the below words using Bubble Sort
 words = ["china","japan","india","usa","europe"]
 
 expected solution - ["china","europe","india","japan","usa"]
+
+
+solution - https://github.com/learnwhilelearning/DSA---BubbleSort/blob/main/solution.py
+try on your own first and then look at the solution
