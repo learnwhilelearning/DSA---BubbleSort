@@ -20,3 +20,21 @@ if __name__=='__main__':
 
 
 
+#challenge 2
+def bubble_sort(arr):
+  
+  end = len(arr)
+
+  for i in range(end-1):
+    for j in range(end -1):
+      if (arr[j]>arr[j+1]):
+        tmp = arr[j]
+        arr[j]=arr[j+1]
+        arr[j+1]=tmp
+  
+if __name__=='__main__':
+  words = ["china","japan","india","usa","europe"]
+
+  bubble_sort(words)
+  print(words)
+
